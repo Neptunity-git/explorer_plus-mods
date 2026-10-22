@@ -1,4 +1,12 @@
 {
   "schema": 1,
-  "mods": []
+  "mods": [
+    {
+      "id": "neo.tree",
+      "name": "樹形図",
+      "description": "今のフォルダを根にして、下の階層を左から右へ枝分かれする図で見せる。枝は開いたところだけ読むので、大きなフォルダでも軽い",
+      "author": "Neptunity-git",
+      "repo": "Neptunity-git/neo-tree"
+    }
+  ]
 }
