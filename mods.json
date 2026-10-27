@@ -1,4 +1,71 @@
 {
   "schema": 1,
-  "mods": []
+  "mods": [
+    {
+      "id": "neo.chest-filer",
+      "name": "チェスト・ファイラー",
+      "description": "チェストがフォルダーのファイラー。マイクラのようなワールドを歩いて、チェストを開き、ファイルを入れて整理する。チェストは仮想のフォルダーで、本物のファイルは動かない。通信はしない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/chest-filer",
+      "path": "mod"
+    },
+    {
+      "id": "neo.file-danmaku",
+      "name": "ファイル弾幕",
+      "description": "ファイルを弾にして、一人称の3D弾幕ボスに撃ちこむゲーム。大きいほどロマン砲。ファイルの名前・大きさ・更新日だけを読み、中身は読まず、書き換えも移動も削除もしない。通信はしない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/file-danmaku",
+      "path": "mod"
+    },
+    {
+      "id": "neo.file-dungeon",
+      "name": "ファイル・ダンジョン",
+      "description": "フォルダをダンジョンにして遊ぶアクションゲーム。討伐対象は長く使われていないファイルだけ。ごみ箱へ送る前に本体の確認を通す。通信（任意）：Claude API・DiceBear・Open-Meteo。ファイルの中身は読まず、送らない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/file-dungeon",
+      "path": "mod",
+      "network": true
+    },
+    {
+      "id": "neo.file-maze",
+      "name": "ファイル迷路",
+      "description": "壁にファイル名が刻まれた迷路。新しいファイルから、長く開いていないファイルまで、迷路を抜けるとコインがもらえる。名前と日付だけを読み、ファイルは変えない。通信はしない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/file-maze",
+      "path": "mod"
+    },
+    {
+      "id": "neo.file-quest",
+      "name": "ファイル・クエスト",
+      "description": "長く使われていないファイルと戦うターン制のRPG。倒した分は町の回収所で、本体の確認を1回通してからごみ箱へ送る。通信（任意）：Claude API。ファイルの中身は読まず、送らない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/file-quest",
+      "path": "mod",
+      "network": true
+    },
+    {
+      "id": "neo.place-notes",
+      "name": "ここ付箋",
+      "description": "付箋を、ファイルやフォルダに貼る。付箋は貼った場所のフォルダの中に保存され、フォルダを動かしても同期しても付いていく。はがしても消えず、戻せる。通信はしない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/place-notes",
+      "path": "mod"
+    },
+    {
+      "id": "neo.space-map",
+      "name": "容量マップ",
+      "description": "フォルダの中身を、大きさに比例した四角で敷き詰めて見せる（ツリーマップ）。何が容量を食っているかが一目でわかり、そのまま開く・ごみ箱へ送る（本体が確認）ができる。通信はしない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/space-map",
+      "path": "mod"
+    },
+    {
+      "id": "neo.sticky-world",
+      "name": "付箋ワールド",
+      "description": "共有フォルダを、みんなで付箋を貼り合う2.5Dのワールドにする。広場・アトリエ・書庫。データはフォルダの中の「.付箋ワールド」に作るだけで、ほかのファイルは変えない。通信はしない",
+      "author": "Neo-Neptunity",
+      "repo": "Neo-Neptunity/sticky-world",
+      "path": "mod"
+    }
+  ]
 }
